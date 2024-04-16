@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma de Gestão de Agentes IA</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="flex">
+        <!-- Sidebar -->
+        <div class="w-64 h-screen bg-gray-800 text-white">
+            <ul class="space-y-2 p-5">
+                <li><a href="#" class="block py-2.5 px-4 rounded transition duration-200 hover:bg-gray-700">Criar um Agente</a></li>
+                <li><a href="#" class="block py-2.5 px-4 rounded transition duration-200 hover:bg-gray-700">Seus Agentes</a></li>
+                <li><a href="#" class="block py-2.5 px-4 rounded transition duration-200 hover:bg-gray-700">Setores</a></li>
+                <li><a href="#" class="block py-2.5 px-4 rounded transition duration-200 hover:bg-gray-700">Visão 360</a></li>
+                <li><a href="#" class="block py-2.5 px-4 rounded transition duration-200 hover:bg-gray-700">Configuração</a></li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div class="flex-1 p-10">
+            <h1 class="text-4xl font-bold mb-5">Bem-vindo à Plataforma de Agentes IA</h1>
+            <div id="chatArea" class="h-full bg-white shadow overflow-hidden rounded-lg p-5">
+                <!-- Chat content will go here -->
+                <p class="text-gray-500">Selecione uma opção ao lado para começar.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Aqui virão os scripts JS para interatividade -->
+    <script src="app.js"></script>
+</body>
+</html>
